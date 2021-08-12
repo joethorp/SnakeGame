@@ -1,0 +1,47 @@
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+.snake {
+    background-color:lawngreen;
+}
+
+.apple {
+    background-color:crimson;
+}
+.start {
+  transition-duration: 0.4s;
+  background-color:coral;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 12px;
+  border:2px solid black;
+  outline: none;
+}
+
+.start:hover {
+  background-color:white; 
+  color: black;
+}
+
+.score {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color:lightslategrey;
+}
